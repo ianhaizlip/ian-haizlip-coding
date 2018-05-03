@@ -1,0 +1,48 @@
+<div class="projects">
+    <div class="main">
+        <h2 class="projectsCard-title">PROJECTS</h2>
+        <div class="project project1">
+            <a href="">
+                <img class="projectImg" src="../../assets/officespace.jpeg">
+            </a>
+            <div class="project-details">
+                <h4 class="project-title">Office Space</h4>
+                <p class="project-description">OfficeSpace is an application that makes it easy for businesses to manage
+                  their clients and securly send and receive large documents. This website demonstrates a full stack
+                  application with a component based front end using ReactJS and Reactstrap for styling. The backend is
+                  implemented using Node.js, AWS, nodemailer, mongoDB, mongoose, and express.</p>
+            </div>
+        </div>
+        <div class="project project2">
+            <a href="https://bootcampspot-v3.herokuapp.com/" target="_blank">
+                <img class="projectImg" src="../../assets/bootcampspot-v3.jpeg">
+            </a>
+            <div class="project-details">
+                <h4 class="project-title">Bootcampspot-v3</h4>
+                <p class="project-description">Bootcampspot-V3 is a redesigned website from Bootcampspot-V2. Our goal was to create a more
+                  efficient way students can access the resources needed to complete the course such as attendance,
+                  classes, turning in homework, and connecting to slack.</p>
+            </div>
+        </div>
+        <div class="project project3">
+            <a href="https://veeno.herokuapp.com/index.html" target="_blank">
+                <img class="projectImg" src="../../assets/veeno.jpeg">
+            </a>
+            <div class="project-details">
+                <h4 class="project-title">Veeno</h4>
+                <p class="project-description">We have created a wine search app that will help people to make a decision when buying wine by
+                  providing a manageable amount of information.</p>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="practice">
+        <h4>Practice Apps</h4>
+        <div *ngFor="let app of practiceApps">
+            <div class="practice-app-element">
+                <div class="parctice-app-title">{{ app.title }}</div>
+                <a class="parctice-app-url" href="{{app.url}}" target="_blank"> Visit Site</a>
+            </div>
+        </div>
+    </div>
+</div>

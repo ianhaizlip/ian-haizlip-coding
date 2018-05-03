@@ -1,0 +1,12 @@
+<div class="resume">
+  <h2 class="resumeCard-title">RESUME</h2>
+  <div class="resume-buttons">
+    <button class="resume-buttons-sf" (click)="changeResume(resumeDEN)">Denver</button>
+    <button class="resume-buttons-den" (click)="changeResume(resumeSF)">San Francisco</button>
+  </div>
+  <div class="resume-container">
+    <h3>{{this.resumeLocation}}</h3>
+    <iframe class="embedded-doc e2e-iframe-trusted-src" [src]="this.resumeUrl"></iframe>
+  </div>
+
+</div>

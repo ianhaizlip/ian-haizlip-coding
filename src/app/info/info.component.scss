@@ -1,0 +1,48 @@
+.info {
+  background-color: #000066;
+  position: fixed;
+  top: 260px;
+  border: 2px solid #A9A9A9;
+  border-radius: 15px;
+  color: #C0C0C0;
+  width: 25vw;
+  height: 200px;
+  padding: 25px;
+  margin: 50px;
+  display: inline-block;
+  -webkit-box-shadow: 4px 4px 36px 0px rgba(148,145,148,0.86);
+  -moz-box-shadow: 4px 4px 36px 0px rgba(148,145,148,0.86);
+  box-shadow: 4px 4px 36px 0px rgba(148,145,148,0.86);
+}
+
+a:link {
+  color: #C0C0C0;
+}
+
+a:visited {
+  color: #FFD700;
+}
+
+button {
+  background-color: #000066;
+  border: 2px solid #A9A9A9;
+  color: #C0C0C0;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.address {
+  margin: 15px 0px;
+  padding: 0px 10px;
+  line-height: 4px;
+}
+
+.link{
+  display: inline-block;
+  margin: 0px 10px;
+}

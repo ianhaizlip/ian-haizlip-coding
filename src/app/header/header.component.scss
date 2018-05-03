@@ -1,0 +1,35 @@
+.header {
+  background-color: #000066;
+  position: fixed;
+  border: 2px solid #A9A9A9;
+  border-radius: 15px;
+  color: #C0C0C0;
+  width: 25vw;
+  height: 200px;
+  padding: 0px 25px 25px 25px;
+  margin: 50px;
+  display: inline-block;
+  -webkit-box-shadow: 4px 4px 36px 0px rgba(148,145,148,0.86);
+  -moz-box-shadow: 4px 4px 36px 0px rgba(148,145,148,0.86);
+  box-shadow: 4px 4px 36px 0px rgba(148,145,148,0.86);
+}
+
+.title {
+  margin: 15px 0 15px 0;
+}
+
+.pageAnchor{
+  padding: 4px;
+  font-size: 20px;
+}
+
+.anchorStyle{
+  color: #C0C0C0;
+  text-decoration: none;
+
+}
+
+.anchorStyle:hover{
+  color: #FFD700;
+  text-decoration: none;
+}

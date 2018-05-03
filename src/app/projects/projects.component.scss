@@ -1,0 +1,50 @@
+.projects{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
+}
+
+.projectsCard-title{
+  margin: 0;
+}
+
+.project{
+  margin: 25px 15px;
+  //border: 1px solid black;
+}
+
+.projectImg{
+  //display: inline-block;
+  margin: 0 15%;
+  width: 70%;
+  height: auto;
+}
+
+.project-details{
+  display: block;
+  padding: 0 15px 0 15px;
+  //border: 1px solid black;
+}
+
+.project-title{
+  color: #FFD700;
+}
+
+.project-description{
+  font-size: 15px;
+}
+
+.practice-app-element{
+  margin: 10px 25px;
+  padding: 5px;
+  //border: 1px solid black;
+}
+
+.parctice-app-title{
+  color: #C0C0C0;
+}
+
+.parctice-app-url{
+  color: #FFFFFF;
+}
