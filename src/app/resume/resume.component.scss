@@ -13,7 +13,7 @@
 
 .embedded-doc{
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
 
 .resume-buttons{
@@ -45,3 +45,18 @@
   border-radius: 5px;
   margin: 5px;
 }
+
+.resume-link{
+  color: #C0C0C0;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.resume-link:hover{
+  color: #FFD700;
+}
+
+.resume-location{
+  display: inline-block;
+}
+

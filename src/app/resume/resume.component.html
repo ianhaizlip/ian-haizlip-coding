@@ -5,7 +5,7 @@
     <button class="resume-buttons-den" (click)="changeResume(resumeSF)">San Francisco</button>
   </div>
   <div class="resume-container">
-    <h3>{{this.resumeLocation}}</h3>
+    <h3 class="resume-location">{{this.resumeLocation}}</h3> - <a class="resume-link" [href]="this.resumeLink">Link to Resume</a>
     <iframe class="embedded-doc e2e-iframe-trusted-src" [src]="this.resumeUrl"></iframe>
   </div>
 

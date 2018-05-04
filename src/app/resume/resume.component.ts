@@ -23,26 +23,31 @@ export class ResumeComponent implements OnInit {
 
   resumeSF: any = {
     location: 'San Francisco',
-    html: this.urlSF
+    html: this.urlSF,
+    link: 'https://docs.google.com/document/d/e/2PACX-1vS5fuMuwpv3PcWRKexnTj5-0xUR2m2azluYFk4owYh3Rk0ybNHTVQMgHKDXH4d8deKqPMPPVu4oCTFV/pub'
   };
 
   resumeDEN: any = {
     location: 'Denver',
-    html: this.urlDEN
+    html: this.urlDEN,
+    link: 'https://docs.google.com/document/d/e/2PACX-1vQ5GLjo6zV2JIOXajzZPHmQ8zLsvuRKgefIxkat5e4EfgGQMYyqUXhEeyeWqJtRYod7lGSLZ0Jg2QtJ/pub'
   };
 
   resumeUrl: SafeResourceUrl;
   resumeLocation: string;
+  resumeLink: string;
 
   changeResume(currentResume: any): void {
     this.resumeLocation = currentResume.location;
     this.resumeUrl = currentResume.html;
+    this.resumeLink = currentResume.link;
   }
 
 
   ngOnInit() {
     this.resumeLocation = this.resumeDEN.location;
     this.resumeUrl = this.resumeDEN.html;
+    this.resumeLink = this.resumeDEN.link;
     console.log(this.resumeUrl);
   }
 
